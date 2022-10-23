@@ -1,0 +1,2811 @@
+
+     
+     
+     /* top media query for different screen sizes */
+
+@media screen and (max-width: 600px){
+    .top{
+        display: block !important;
+        height: 100px !important;
+        text-align: center !important;
+        align-items: center !important;
+        
+    }
+
+    .top  ul{
+        display: flex !important;
+        list-style: none;
+        margin-left: 0px!important;
+        margin-top: 0px !important;
+        
+        justify-content: center !important;
+
+    
+    
+    }
+    .top-button ul {
+        margin-left: 0px!important;
+        justify-content: center !important;
+
+    }
+    
+    .top-text p{
+        font-size: 12px !important;
+        color: white;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        padding: 2px !important;
+        text-align: center !important;
+    }
+    .button-top{
+        background-color: gainsboro;
+        color: black;
+        padding: 1px !important;
+        
+    }    
+
+}
+
+@media  screen and (min-width: 600px) {
+
+.top{
+    display: block !important;
+    height: 100px !important;
+    
+    
+}
+
+.top  ul{
+    display: flex !important;
+    list-style: none;
+    margin-left: 0px!important;
+    margin-top: 0px !important;
+   
+    justify-content: center !important;
+
+
+}
+.top-button ul {
+    margin-left: 0px!important;
+    justify-content: center !important;
+}
+
+.top-text p{
+    font-size: 12px !important;
+    color: white;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    padding: 2px !important;
+    text-align: center !important;
+}
+.button-top{
+    background-color: gainsboro;
+    color: black;
+    padding: 1px !important;
+    
+}
+
+
+}
+
+
+
+@media  screen and (min-width: 768px) {
+
+    .top{
+        display: flex !important;
+        height: 80px !important;
+        
+        
+    }
+    
+    .top  ul{
+        display: flex !important;
+        list-style: none;
+        margin-left: 0px!important;
+        margin-top: 0px !important;
+       
+        justify-content: center !important;
+    
+    
+    }
+    .top-button ul {
+        margin-left: 0px!important;
+        justify-content: center !important;
+    }
+    
+    .top-text   p{
+        font-size: 14px !important;
+        color: white;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        margin-top: 0px !important;
+        padding: 2px !important;
+        text-align: center !important;
+    }
+    .button-top{
+        background-color: gainsboro;
+        color: black;
+        padding: 1px !important;
+        
+    }
+    
+}
+
+
+@media  screen and (min-width: 865px) {
+
+    .top{
+        display: flex !important;
+        height: 80px !important;
+        
+        
+    }
+    
+    .top  ul{
+        display: flex !important;
+        list-style: none;
+        margin-left: 0px!important;
+        margin-top: 0px !important;
+    
+        justify-content: center !important;
+    
+    
+    }
+
+    .top-button ul {
+        margin-left: 0px!important;
+        justify-content: center !important;
+       
+    }
+    
+    .top-text  p{
+        font-size: 13px !important;
+        color: white;
+        margin-left: 20px !important;
+        margin-right: 20px !important;
+        padding: 0px !important;
+        text-align: center !important;
+    }
+    .button-top{
+        background-color: gainsboro;
+        color: black;
+        padding: 1px !important;
+        font-size: 12px !important;
+    }
+    
+}
+
+@media  screen and (min-width: 992px) {
+    .top{
+        display: flex !important;
+        height: 80px !important;
+        
+        
+    }
+    
+    .top  ul{
+        display: flex !important;
+        list-style: none;
+        margin-left: px!important;
+        margin-top: 0px !important;
+               
+        justify-content: space-around !important;
+    
+    
+    }
+    .top-button ul {
+        margin-left: 0px!important;
+        justify-content: space-around !important;
+    }
+    
+    .top-text   p{
+        font-size: 14px !important;
+        color: white;
+        margin-left: 20px !important;
+        margin-right: 20px !important;
+        padding: 2px !important;
+        padding-top: 10px !important;
+        text-align: center !important;
+
+    }
+    .button-top{
+        background-color: gainsboro;
+        color: black;
+        padding: 1px !important;
+        
+    }
+ 
+}
+
+@media only screen and (min-width: 1200px) {
+    .top{
+        display:flex !important;
+        background-color:rgba(68, 71, 248, 0.945);
+        width: 100% !important;
+        align-items: center !important ;
+        height: 80px !important;
+        
+        
+        
+    
+    }
+    .top ul{
+        display: flex !important;
+        list-style: none;
+        margin-left: 50px!important;
+        margin-top: 20px !important;
+    
+    }
+    .top ul li{
+        margin: 5px !important;
+    }
+    .top-text   p{
+        font-size: 20px !important;
+        color: white;
+        padding-top: 10px !important;
+        margin-left: 120px !important;
+        margin-right: 100px !important;
+    }
+    .button-top{
+        background-color: gainsboro;
+        color: black;
+        padding: 5px !important;
+        
+    }
+    
+}
+
+          /* Top media query End */
+
+
+
+          /* Navbar Media Query Start */
+
+
+          @media  screen and (max-width: 600px) {
+
+ 
+            .nav-container{
+                height: 80px !important ;
+                width: 100% !important ;
+                display: flex !important ;
+                align-items: center !important; 
+                justify-content: space-around !important;
+                margin-top: 10px !important ;
+                background-color: white !important ;
+                box-shadow: 5px 5px 10px  #888888 ;
+                overflow: visible !important;
+                z-index: 1000 !important;
+                
+           } 
+           .logo img{
+            width: 100px !important;
+            margin-top: 0px !important;
+            
+           }
+           
+           .nav-container ul{
+               list-style: none ;
+               display: flex ;
+               overflow: visible !important;
+               z-index: 1000 !important;
+           }
+           .nav-container ul li{
+               padding: 0px 5px !important ;
+               position: relative !important;
+           }
+           .nav-container ul li a {
+               color: black;
+               text-decoration: none;
+               font-size: 12px !important;
+               transition: all 0.3s !important;
+           
+           }
+           .nav-container ul li a:hover {
+               text-decoration: none;
+               width: 100px !important;
+               text-decoration: underline greenyellow;
+           
+           }
+
+          }
+
+
+          @media  screen and (min-width: 600px) {
+
+            .nav-container{
+                height: 80px !important ;
+                width: 100% !important ;
+                display: flex !important ;
+                align-items: center !important; 
+                justify-content: space-around !important;
+                margin-top: 10px !important ;
+                background-color: white !important ;
+                box-shadow: 5px 5px 10px  #888888 ;
+                overflow: visible !important;
+                z-index: 1000 !important;
+                
+           } 
+           .logo img{
+            width: 100px !important;
+            margin-top: 0px !important;
+            
+           }
+           
+           .nav-container ul{
+               list-style: none ;
+               display: flex ;
+               overflow: visible !important;
+               z-index: 1000 !important;
+           }
+           .nav-container ul li{
+               padding: 0px 5px !important ;
+               position: relative !important;
+           }
+           .nav-container ul li a {
+               color: black;
+               text-decoration: none;
+               font-size: 12px !important;
+               transition: all 0.3s !important;
+           
+           }
+           .nav-container ul li a:hover {
+               text-decoration: none;
+               width: 100px !important;
+               text-decoration: underline greenyellow;
+           
+           }
+
+
+           .nav-container ul li:hover .about-dropdown {
+            display: block;
+            position: absolute !important;
+            left: 0px !important;
+            top: 100% !important;
+            width: 170px !important;
+            text-decoration: none !important;
+            
+            
+        }
+        .nav-container ul li:hover .about-dropdown ul{
+            display: block !important;
+            margin: 8px!important;
+            margin-top: 20px !important;
+            width: 170px !important;
+            background-color: white;
+            box-shadow: 5px 5px 10px  #888888;
+            
+            
+            
+        }
+        .nav-container ul li:hover .about-dropdown ul li {
+           
+            padding: 15px !important;
+            line-height: 15px !important;
+            width: 170px !important;
+            text-decoration: none !important;
+            
+              
+        }
+        
+
+
+           .nav-container ul li:hover .services-dropdown ul{
+            display: block;
+            margin: 10px !important;
+            margin-top: 20px !important;
+            padding-right: 10px !important;
+            width: 120px !important;
+            background-color: white;
+            box-shadow: 5px 5px 10px  #888888;
+          
+        }
+        .nav-container ul li:hover .services-dropdown ul li {
+            padding: 15px !important;
+            line-height: 15px !important;
+            width: 120px !important;
+            text-decoration: none;
+            
+            
+            
+        }
+
+        .services-dropdown ul li:hover .health-submenu {
+            display: block;
+            position: absolute;
+            left: 110px !important;
+            top: 0px !important;
+            
+        }
+        .services-dropdown ul li:hover .health-submenu ul{
+            display: block;
+            margin: 10px !important;
+            margin-top: 10px !important;
+            background-color: white;
+            box-shadow: 5px 5px 10px  #888888;
+            width: 180px !important; 
+        }
+        .services-dropdown ul li:hover .health-submenu ul li {
+            padding: 10px !important;
+            line-height: 15px !important;
+            width: 180px !important;
+            text-decoration: none;
+            
+        }
+
+        .services-dropdown ul li:hover .education-submenu {
+            display: block;
+            position: absolute;
+            left: 110px !important;
+            top: 0px !important;
+            
+        }
+        .services-dropdown ul li:hover .education-submenu ul{
+            display: block;
+            margin: 10px !important;
+            margin-top: 10px !important;
+            background-color: white;
+            box-shadow: 5px 5px 10px  #888888;
+            width: 140px !important; 
+            
+        }
+        .services-dropdown ul li:hover .education-submenu ul li {
+            padding: 10px !important;
+            line-height: 15px !important;
+            width: 140px !important;
+            text-decoration: none;
+            
+        }
+
+        .education-submenu ul li:hover .vocational-submenu {
+            display: block;
+            position: absolute;
+            left: 130px !important;
+            top: 0px !important;
+            
+        }
+        .education-submenu ul li:hover .vocational-submenu ul{
+            display: block;
+            margin: 10px !important;
+            margin-top: 10px !important;
+            background-color: white;
+            box-shadow: 5px 5px 10px  #888888;
+            width: 140px !important;
+            
+        }
+        .education-submenu ul li:hover .vocational-submenu ul li {
+            padding: 10px !important;
+            line-height: 15px !important;
+            width: 140px !important;
+            text-decoration: none;
+        
+            
+        }
+
+
+
+
+        .education-submenu ul li:hover .technical-submenu {
+            display: block;
+            position: absolute;
+            left: 130px !important;
+            top: 0px !important;
+            
+        }
+        .education-submenu ul li:hover .technical-submenu ul{
+            display: block;
+            margin: 10px !important;
+            margin-top: 10px !important;
+            width: 140px !important;
+            background-color: white;
+            box-shadow: 5px 5px 10px  #888888;
+          
+            
+        }
+        .education-submenu ul li:hover .technical-submenu ul li {
+            padding: 10px !important;
+            line-height: 15px !important;
+            width: 140px !important;
+            text-decoration: none;
+        
+            
+        }
+        .education-submenu ul li:hover .islamic-education-submenu {
+            display: block;
+            position: absolute;
+            left: 130px !important;
+            top: 0px !important;
+            
+        }
+        .education-submenu ul li:hover .islamic-education-submenu ul{
+            display: block;
+            margin: 10px !important;
+            margin-top: 10px !important;
+            width: 140px !important;
+            background-color: white;
+            box-shadow: 5px 5px 10px  #888888;
+            
+        }
+        .education-submenu ul li:hover .islamic-education-submenu ul li {
+            padding: 10px !important;
+            line-height: 15px !important;
+            width: 140px !important;
+            text-decoration: none;
+        
+            
+        }
+        
+        .education-submenu ul li:hover .accounting-submenu {
+            display: block;
+            position: absolute;
+            left: 130px !important;
+            top: 0px !important;
+            
+        }
+        .education-submenu ul li:hover .accounting-submenu ul{
+            display: block;
+            margin: 10px !important;
+            margin-top: 10px !important;
+            width: 140px !important;
+            background-color: white;
+            box-shadow: 5px 5px 10px  #888888;
+        
+        }
+        .education-submenu ul li:hover .accounting-submenu ul li {
+            padding: 10px !important;
+            line-height: 15px !important;
+            width: 140px !important;
+            text-decoration: none;
+        
+            
+        }
+        .services-dropdown ul li:hover .food-submenu {
+            display: block;
+            position: absolute;
+            left: 110px !important;
+            top: 0px !important;
+            
+        }
+        .services-dropdown ul li:hover .food-submenu ul{
+            display: block;
+            margin: 10px !important;
+            margin-top: 10px !important;
+            width: 170px !important;
+            background-color: white;
+            box-shadow: 5px 5px 10px  #888888;
+        
+        }
+        .services-dropdown ul li:hover .food-submenu ul li {
+            padding: 10px !important;
+            line-height: 15px !important;
+            width: 170px !important;
+            text-decoration: none;
+        
+            
+        }
+
+        .services-dropdown ul li:hover .sadiqah-submenu {
+            display: block;
+            position: absolute;
+            left: 110px !important;
+            top: 0px !important;
+            
+        }
+        .services-dropdown ul li:hover .sadiqah-submenu ul{
+            display: block;
+            margin: 10px !important;
+            margin-top: 10px !important;
+            width: 170px !important;
+            background-color: white;
+            box-shadow: 5px 5px 10px  #888888;
+        
+        }
+        .services-dropdown ul li:hover .sadiqah-submenu ul li {
+            padding: 10px !important;
+            line-height: 15px !important;
+            width: 170px !important;
+            text-decoration: none;
+            
+        }
+
+        .services-dropdown ul li:hover .social-submenu {
+            display: block;
+            position: absolute;
+            left: 110px !important;
+            top: 0px !important;
+            
+        }
+        .services-dropdown ul li:hover .social-submenu ul{
+            display: block;
+            margin: 10px !important;
+            margin-top: 10px !important;
+            width: 170px !important;
+            background-color: white;
+            box-shadow: 5px 5px 10px  #888888;
+        
+            
+        }
+        .services-dropdown ul li:hover .social-submenu ul li {
+            padding: 10px !important;
+            line-height: 15px !important;
+            width: 170px !important;
+            text-decoration: none;
+            
+        }
+
+        .services-dropdown ul li:hover .disaster-submenu {
+            display: block;
+            position: absolute;
+            left: 110px !important;
+            top: 0px !important;
+            
+        }
+        .services-dropdown ul li:hover .disaster-submenu ul{
+            display: block;
+            margin: 10px !important;
+            margin-top: 10px !important;
+            width: 200px !important;
+            background-color: white;
+            box-shadow: 5px 5px 10px  #888888;
+        
+            
+            
+        }
+        .services-dropdown ul li:hover .disaster-submenu ul li {
+            padding: 10px !important;
+            line-height: 15px !important;
+            width: 200px !important;
+            text-decoration: none;
+            
+        }
+
+
+        .services-dropdown ul li:hover .ehsaas-submenu {
+            display: block;
+            position: absolute;
+            left: 110px !important;
+            top: 0px !important;
+            
+        }
+        .services-dropdown ul li:hover .ehsaas-submenu ul{
+            display: block;
+            margin: 10px !important;
+            margin-top: 10px !important;
+            width: 170px !important;
+            background-color: white;
+            box-shadow: 5px 5px 10px  #888888;
+            
+            
+        }
+        .services-dropdown ul li:hover .ehsaas-submenu ul li {
+            padding: 10px !important;
+            line-height: 15px !important;
+            width: 170px !important;
+            text-decoration: none;
+            
+        }
+
+          }
+
+
+
+          @media screen and (min-width: 768px) {
+
+
+            .nav-container ul li{
+                padding: 0px 8px !important ;
+                position: relative !important;
+            }
+            .nav-container ul li a {
+                color: black;
+                text-decoration: none;
+                font-size: 14px !important;
+                transition: all 0.3s !important;
+            
+            }
+
+            .logo img{
+                width: 150px !important;
+                margin-top: 0px !important;
+                
+               }
+
+               .nav-container ul li:hover .services-dropdown ul{
+                display: block;
+                margin: 10px !important;
+                margin-top: 20px !important;
+                padding-right: 10px !important;
+                width: 150px !important;
+                background-color: white;
+                box-shadow: 5px 5px 10px  #888888;
+              
+            }
+            .nav-container ul li:hover .services-dropdown ul li {
+                padding: 15px !important;
+                line-height: 15px !important;
+                width: 150px !important;
+                text-decoration: none;
+                
+                
+                
+            }
+            .services-dropdown ul li:hover .health-submenu {
+                display: block;
+                position: absolute;
+                left: 140px !important;
+                top: 0px !important;
+                
+            }
+            .services-dropdown ul li:hover .health-submenu ul{
+                display: block;
+                margin: 10px !important;
+                margin-top: 10px !important;
+                background-color: white;
+                box-shadow: 5px 5px 10px  #888888;
+                width: 180px !important; 
+            }
+            .services-dropdown ul li:hover .health-submenu ul li {
+                padding: 10px !important;
+                line-height: 15px !important;
+                width: 180px !important;
+                text-decoration: none;
+                
+            }
+    
+            .services-dropdown ul li:hover .education-submenu {
+                display: block;
+                position: absolute;
+                left: 140px !important;
+                top: 0px !important;
+                
+            }
+            .services-dropdown ul li:hover .education-submenu ul{
+                display: block;
+                margin: 10px !important;
+                margin-top: 10px !important;
+                background-color: white;
+                box-shadow: 5px 5px 10px  #888888;
+                width: 190px !important; 
+                
+            }
+            .services-dropdown ul li:hover .education-submenu ul li {
+                padding: 10px !important;
+                line-height: 15px !important;
+                width: 190px !important;
+                text-decoration: none;
+                
+            }
+    
+            .education-submenu ul li:hover .vocational-submenu {
+                display: block;
+                position: absolute;
+                left: 180px !important;
+                top: 0px !important;
+                
+            }
+            .education-submenu ul li:hover .vocational-submenu ul{
+                display: block;
+                margin: 10px !important;
+                margin-top: 10px !important;
+                background-color: white;
+                box-shadow: 5px 5px 10px  #888888;
+                width: 190px !important;
+                
+            }
+            .education-submenu ul li:hover .vocational-submenu ul li {
+                padding: 10px !important;
+                line-height: 15px !important;
+                width: 190px !important;
+                text-decoration: none;
+            
+                
+            }
+    
+    
+    
+    
+            .education-submenu ul li:hover .technical-submenu {
+                display: block;
+                position: absolute;
+                left: 180px !important;
+                top: 0px !important;
+                
+            }
+            .education-submenu ul li:hover .technical-submenu ul{
+                display: block;
+                margin: 10px !important;
+                margin-top: 10px !important;
+                width: 140px !important;
+                background-color: white;
+                box-shadow: 5px 5px 10px  #888888;
+              
+                
+            }
+            .education-submenu ul li:hover .technical-submenu ul li {
+                padding: 10px !important;
+                line-height: 15px !important;
+                width: 140px !important;
+                text-decoration: none;
+            
+                
+            }
+            .education-submenu ul li:hover .islamic-education-submenu {
+                display: block;
+                position: absolute;
+                left: 180px !important;
+                top: 0px !important;
+                
+            }
+            .education-submenu ul li:hover .islamic-education-submenu ul{
+                display: block;
+                margin: 10px !important;
+                margin-top: 10px !important;
+                width: 140px !important;
+                background-color: white;
+                box-shadow: 5px 5px 10px  #888888;
+                
+            }
+            .education-submenu ul li:hover .islamic-education-submenu ul li {
+                padding: 10px !important;
+                line-height: 15px !important;
+                width: 140px !important;
+                text-decoration: none;
+            
+                
+            }
+            
+            .education-submenu ul li:hover .accounting-submenu {
+                display: block;
+                position: absolute;
+                left: 180px !important;
+                top: 0px !important;
+                
+            }
+            .education-submenu ul li:hover .accounting-submenu ul{
+                display: block;
+                margin: 10px !important;
+                margin-top: 10px !important;
+                width: 140px !important;
+                background-color: white;
+                box-shadow: 5px 5px 10px  #888888;
+            
+            }
+            .education-submenu ul li:hover .accounting-submenu ul li {
+                padding: 10px !important;
+                line-height: 15px !important;
+                width: 140px !important;
+                text-decoration: none;
+            
+                
+            }
+            .services-dropdown ul li:hover .food-submenu {
+                display: block;
+                position: absolute;
+                left: 140px !important;
+                top: 0px !important;
+                
+            }
+            .services-dropdown ul li:hover .food-submenu ul{
+                display: block;
+                margin: 10px !important;
+                margin-top: 10px !important;
+                width: 170px !important;
+                background-color: white;
+                box-shadow: 5px 5px 10px  #888888;
+            
+            }
+            .services-dropdown ul li:hover .food-submenu ul li {
+                padding: 10px !important;
+                line-height: 15px !important;
+                width: 170px !important;
+                text-decoration: none;
+            
+                
+            }
+    
+            .services-dropdown ul li:hover .sadiqah-submenu {
+                display: block;
+                position: absolute;
+                left: 140px !important;
+                top: 0px !important;
+                
+            }
+            .services-dropdown ul li:hover .sadiqah-submenu ul{
+                display: block;
+                margin: 10px !important;
+                margin-top: 10px !important;
+                width: 170px !important;
+                background-color: white;
+                box-shadow: 5px 5px 10px  #888888;
+            
+            }
+            .services-dropdown ul li:hover .sadiqah-submenu ul li {
+                padding: 10px !important;
+                line-height: 15px !important;
+                width: 170px !important;
+                text-decoration: none;
+                
+            }
+    
+            .services-dropdown ul li:hover .social-submenu {
+                display: block;
+                position: absolute;
+                left: 140px !important;
+                top: 0px !important;
+                
+            }
+            .services-dropdown ul li:hover .social-submenu ul{
+                display: block;
+                margin: 10px !important;
+                margin-top: 10px !important;
+                width: 170px !important;
+                background-color: white;
+                box-shadow: 5px 5px 10px  #888888;
+            
+                
+            }
+            .services-dropdown ul li:hover .social-submenu ul li {
+                padding: 10px !important;
+                line-height: 15px !important;
+                width: 170px !important;
+                text-decoration: none;
+                
+            }
+    
+            .services-dropdown ul li:hover .disaster-submenu {
+                display: block;
+                position: absolute;
+                left: 140px !important;
+                top: 0px !important;
+                
+            }
+            .services-dropdown ul li:hover .disaster-submenu ul{
+                display: block;
+                margin: 10px !important;
+                margin-top: 10px !important;
+                width: 200px !important;
+                background-color: white;
+                box-shadow: 5px 5px 10px  #888888;
+            
+                
+                
+            }
+            .services-dropdown ul li:hover .disaster-submenu ul li {
+                padding: 10px !important;
+                line-height: 15px !important;
+                width: 200px !important;
+                text-decoration: none;
+                
+            }
+    
+    
+            .services-dropdown ul li:hover .ehsaas-submenu {
+                display: block;
+                position: absolute;
+                left: 140px !important;
+                top: 0px !important;
+                
+            }
+            .services-dropdown ul li:hover .ehsaas-submenu ul{
+                display: block;
+                margin: 10px !important;
+                margin-top: 10px !important;
+                width: 170px !important;
+                background-color: white;
+                box-shadow: 5px 5px 10px  #888888;
+                
+                
+            }
+            .services-dropdown ul li:hover .ehsaas-submenu ul li {
+                padding: 10px !important;
+                line-height: 15px !important;
+                width: 170px !important;
+                text-decoration: none;
+                
+            }
+    
+
+
+
+
+          }
+
+
+          @media  screen and (min-width: 865px){
+
+
+
+          }
+
+
+
+          @media screen and (min-width: 992px) {
+
+
+            .nav-container ul li{
+                padding: 0px 8px !important ;
+                position: relative !important;
+            }
+            .nav-container ul li a {
+                color: black;
+                text-decoration: none;
+                font-size: 14px !important;
+                transition: all 0.3s !important;
+            
+            }
+
+            .logo img{
+                width: 150px !important;
+                margin-top: 0px !important;
+                
+               }
+          }
+
+          @media only screen and (min-width: 1200px) {
+            .nav-container{
+                height: 80px !important ;
+                width: 100% !important ;
+                display: flex !important ;
+                align-items: center !important; 
+                justify-content: space-around !important;
+                margin-top: 10px !important ;
+                background-color: white !important ;
+                box-shadow: 5px 5px 10px  #888888 ;
+                overflow: visible !important;
+                z-index: 1000 !important;
+                
+           } 
+           
+           
+           .nav-container ul{
+               list-style: none ;
+               display: flex ;
+               overflow: visible !important;
+               z-index: 1000 !important;
+           }
+           .nav-container ul li{
+               padding: 0px 20px !important ;
+               position: relative !important;
+           }
+           .nav-container ul li a {
+               color: black;
+               text-decoration: none;
+               font-size: 20px !important;
+               transition: all 0.3s !important;
+           
+           }
+           .about-dropdown{
+            display: none;
+        
+        }
+        .nav-container ul li:hover .about-dropdown {
+            display: block;
+            position: absolute !important;
+            left: 0px !important;
+            top: 100% !important;
+            width: 250px !important;
+            text-decoration: none !important;
+            
+            
+        }
+        .nav-container ul li:hover .about-dropdown ul{
+            display: block !important;
+            margin: 8px!important;
+            margin-top: 20px !important;
+            width: 250px !important;
+            background-color: white;
+            box-shadow: 5px 5px 10px  #888888;
+            
+            
+            
+        }
+        .nav-container ul li:hover .about-dropdown ul li {
+           
+            padding: 15px !important;
+            line-height: 15px !important;
+            width: 250px !important;
+            text-decoration: none !important;
+            
+              
+        }
+        
+        
+        .nav-container ul li:hover .about-dropdown ul li:hover{
+            
+            background-color: yellowgreen;
+            cursor: pointer;
+            
+        }
+        .nav-container ul li:hover .about-dropdown ul li a:hover{
+            color: white;
+            text-decoration: none;
+            
+        }
+        
+        
+        
+        .services-dropdown{
+            display: none;
+        
+        }
+        .nav-container ul li:hover .services-dropdown {
+            display: block;
+            position: absolute;
+            left: 0 !important;
+            top: 100% !important;
+            
+        
+        }
+        .nav-container ul li:hover .services-dropdown ul{
+            display: block;
+            margin: 10px !important;
+            margin-top: 20px !important;
+            padding-right: 10px !important;
+            width: 180px !important;
+            background-color: white;
+            box-shadow: 5px 5px 10px  #888888;
+          
+        }
+        .nav-container ul li:hover .services-dropdown ul li {
+            padding: 15px !important;
+            line-height: 15px !important;
+            width: 180px !important;
+            text-decoration: none;
+            
+            
+            
+        }
+        
+        .nav-container ul li:hover .services-dropdown ul li:hover{
+            
+            background-color: gainsboro;
+            cursor: pointer;
+            
+        }
+        .nav-container ul li:hover .services-dropdown ul li a:hover{
+            color: black;
+            text-decoration: none;
+            
+        }
+        
+        
+        
+        .fa-solid{
+            float: right !important;
+        }
+        
+        .media-dropdown{
+            display: none;
+        
+        }
+        .nav-container ul li:hover .media-dropdown {
+            display: block;
+            position: absolute;
+            left: 0 !important;
+            top: 100% !important;
+            
+        
+        }
+        .nav-container ul li:hover .media-dropdown ul{
+            display: block;
+            margin: 10px !important;
+            margin-top: 20px !important;
+            width: 180px !important;
+            background-color: white;
+            box-shadow: 5px 5px 10px  #888888;
+        }
+        .nav-container ul li:hover .media-dropdown ul li {
+            padding: 10px !important;
+            line-height: 15px !important;
+            width: 180px !important;
+            text-decoration: none;
+            
+        }
+        
+        .nav-container ul li:hover .media-dropdown ul li:hover{
+            
+            background-color: yellowgreen;
+            cursor: pointer;
+            
+        }
+        .nav-container ul li:hover .media-dropdown ul li a:hover{
+            color: white;
+            text-decoration: none;
+            
+        }
+        
+        
+        
+        .contact-dropdown{
+            display: none;
+        
+        }
+        .nav-container ul li:hover .contact-dropdown {
+            display: block;
+            position: absolute;
+            left: 0 !important;
+            top: 100% !important;
+            
+        }
+        .nav-container ul li:hover .contact-dropdown ul{
+            display: block;
+            margin: 10px !important;
+            margin-top: 20px !important;
+            width: 180px !important;
+            background-color: white;
+            box-shadow: 5px 5px 10px  #888888;
+        }
+        .nav-container ul li:hover .contact-dropdown ul li {
+            padding: 10px !important;
+            line-height: 15px !important;
+            width: 180px !important;
+            text-decoration: none;
+            
+        }
+        
+        .nav-container ul li:hover .contact-dropdown ul li:hover{
+            
+            background-color: yellowgreen;
+            cursor: pointer;
+            
+        }
+        .nav-container ul li:hover .contact-dropdown ul li a:hover{
+            color: white;
+            text-decoration: none;
+            
+        }
+        
+        
+        
+        
+        .health-submenu{
+            display: none;
+        
+        }
+        
+        .services-dropdown ul li:hover .health-submenu {
+            display: block;
+            position: absolute;
+            left: 170px !important;
+            top: 0px !important;
+            
+        }
+        .services-dropdown ul li:hover .health-submenu ul{
+            display: block;
+            margin: 10px !important;
+            margin-top: 10px !important;
+            background-color: white;
+            box-shadow: 5px 5px 10px  #888888;
+            width: 280px !important; 
+        }
+        .services-dropdown ul li:hover .health-submenu ul li {
+            padding: 10px !important;
+            line-height: 15px !important;
+            width: 280px !important;
+            text-decoration: none;
+            
+        }
+        
+        .services-dropdown ul li:hover .health-submenu ul li:hover {
+            
+            background-color: yellowgreen;
+            cursor: pointer;
+            
+        }
+        .services-dropdown ul li:hover .health-submenu ul li a:hover {
+            color: white;
+            text-decoration: none;
+            
+        }
+        
+        
+        .education-submenu{
+            display: none;
+        
+        }
+        
+        .services-dropdown ul li:hover .education-submenu {
+            display: block;
+            position: absolute;
+            left: 170px !important;
+            top: 0px !important;
+            
+        }
+        .services-dropdown ul li:hover .education-submenu ul{
+            display: block;
+            margin: 10px !important;
+            margin-top: 10px !important;
+            background-color: white;
+            box-shadow: 5px 5px 10px  #888888;
+            width: 280px !important; 
+            
+        }
+        .services-dropdown ul li:hover .education-submenu ul li {
+            padding: 10px !important;
+            line-height: 15px !important;
+            width: 280px !important;
+            text-decoration: none;
+            
+        }
+        
+        .services-dropdown ul li:hover .education-submenu ul li:hover {
+            
+            background-color: yellowgreen;
+            cursor: pointer;
+            
+        }
+        .services-dropdown ul li:hover .education-submenu ul li a:hover {
+            color: white;
+            text-decoration: none;
+            
+        }
+        
+        
+        .vocational-submenu{
+            display: none;
+        
+        }
+        
+        .education-submenu ul li:hover .vocational-submenu {
+            display: block;
+            position: absolute;
+            left: 270px !important;
+            top: 0px !important;
+            
+        }
+        .education-submenu ul li:hover .vocational-submenu ul{
+            display: block;
+            margin: 10px !important;
+            margin-top: 10px !important;
+            background-color: white;
+            box-shadow: 5px 5px 10px  #888888;
+            width: 300px !important;
+            
+        }
+        .education-submenu ul li:hover .vocational-submenu ul li {
+            padding: 10px !important;
+            line-height: 15px !important;
+            width: 300px !important;
+            text-decoration: none;
+        
+            
+        }
+        .education-submenu ul li:hover .vocational-submenu ul li:hover {
+            
+            background-color: gainsboro;
+            cursor: pointer;
+            
+        }
+        .education-submenu ul li:hover .vocational-submenu ul li a:hover {
+            color: black;
+            text-decoration: none;
+            
+        }
+        
+        
+        .technical-submenu{
+            display: none;
+        
+        }
+        
+        .education-submenu ul li:hover .technical-submenu {
+            display: block;
+            position: absolute;
+            left: 270px !important;
+            top: 0px !important;
+            
+        }
+        .education-submenu ul li:hover .technical-submenu ul{
+            display: block;
+            margin: 10px !important;
+            margin-top: 10px !important;
+            width: 250px !important;
+            background-color: white;
+            box-shadow: 5px 5px 10px  #888888;
+          
+            
+        }
+        .education-submenu ul li:hover .technical-submenu ul li {
+            padding: 10px !important;
+            line-height: 15px !important;
+            width: 250px !important;
+            text-decoration: none;
+        
+            
+        }
+        
+        .education-submenu ul li:hover .technical-submenu ul li:hover {
+            
+            background-color: gainsboro;
+            cursor: pointer;
+            
+        }
+        .education-submenu ul li:hover .technical-submenu ul li a:hover {
+            color: black;
+            text-decoration: none;
+            
+        }
+        
+        
+        .islamic-education-submenu{
+            display: none;
+        
+        }
+        
+        .education-submenu ul li:hover .islamic-education-submenu {
+            display: block;
+            position: absolute;
+            left: 270px !important;
+            top: 0px !important;
+            
+        }
+        .education-submenu ul li:hover .islamic-education-submenu ul{
+            display: block;
+            margin: 10px !important;
+            margin-top: 10px !important;
+            width: 250px !important;
+            background-color: white;
+            box-shadow: 5px 5px 10px  #888888;
+            
+        }
+        .education-submenu ul li:hover .islamic-education-submenu ul li {
+            padding: 10px !important;
+            line-height: 15px !important;
+            width: 250px !important;
+            text-decoration: none;
+        
+            
+        }
+        
+        .education-submenu ul li:hover .islamic-education-submenu ul li:hover {
+            
+            background-color: gainsboro;
+            cursor: pointer;
+            
+        }
+        .education-submenu ul li:hover .islamic-education-submenu ul li a:hover {
+            color: black;
+            text-decoration: none;
+            
+        }
+        
+        
+        
+        
+        .accounting-submenu{
+            display: none;
+        
+        }
+        
+        .education-submenu ul li:hover .accounting-submenu {
+            display: block;
+            position: absolute;
+            left: 270px !important;
+            top: 0px !important;
+            
+        }
+        .education-submenu ul li:hover .accounting-submenu ul{
+            display: block;
+            margin: 10px !important;
+            margin-top: 10px !important;
+            width: 200px !important;
+            background-color: white;
+            box-shadow: 5px 5px 10px  #888888;
+        
+        }
+        .education-submenu ul li:hover .accounting-submenu ul li {
+            padding: 10px !important;
+            line-height: 15px !important;
+            width: 200px !important;
+            text-decoration: none;
+        
+            
+        }
+        
+        .education-submenu ul li:hover .accounting-submenu ul li:hover {
+            
+            background-color: gainsboro;
+            cursor: pointer;
+            
+        }
+        .education-submenu ul li:hover .accounting-submenu ul li a:hover {
+            color: black;
+            text-decoration: none;
+            
+        }
+        
+        
+        .food-submenu{
+            display: none;
+        
+        }
+        
+        .services-dropdown ul li:hover .food-submenu {
+            display: block;
+            position: absolute;
+            left: 170px !important;
+            top: 0px !important;
+            
+        }
+        .services-dropdown ul li:hover .food-submenu ul{
+            display: block;
+            margin: 10px !important;
+            margin-top: 10px !important;
+            width: 250px !important;
+            background-color: white;
+            box-shadow: 5px 5px 10px  #888888;
+        
+        }
+        .services-dropdown ul li:hover .food-submenu ul li {
+            padding: 10px !important;
+            line-height: 15px !important;
+            width: 250px !important;
+            text-decoration: none;
+        
+            
+        }
+        
+        .services-dropdown ul li:hover .food-submenu ul li:hover {
+            
+            background-color: yellowgreen;
+            cursor: pointer;
+            
+        }
+        .services-dropdown ul li:hover .food-submenu ul li a:hover {
+            color: white;
+            text-decoration: none;
+            
+        }
+        
+        
+        
+        .sadiqah-submenu{
+            display: none;
+        
+        }
+        
+        .services-dropdown ul li:hover .sadiqah-submenu {
+            display: block;
+            position: absolute;
+            left: 170px !important;
+            top: 0px !important;
+            
+        }
+        .services-dropdown ul li:hover .sadiqah-submenu ul{
+            display: block;
+            margin: 10px !important;
+            margin-top: 10px !important;
+            width: 250px !important;
+            background-color: white;
+            box-shadow: 5px 5px 10px  #888888;
+        
+        }
+        .services-dropdown ul li:hover .sadiqah-submenu ul li {
+            padding: 10px !important;
+            line-height: 15px !important;
+            width: 250px !important;
+            text-decoration: none;
+            
+        }
+        
+        .services-dropdown ul li:hover .sadiqah-submenu ul li:hover {
+            
+            background-color: yellowgreen;
+            cursor: pointer;
+            
+        }
+        .services-dropdown ul li:hover .sadiqah-submenu ul li a:hover {
+            color: white;
+            text-decoration: none;
+            
+        }
+        
+        
+        .social-submenu{
+            display: none;
+        
+        }
+        
+        .services-dropdown ul li:hover .social-submenu {
+            display: block;
+            position: absolute;
+            left: 170px !important;
+            top: 0px !important;
+            
+        }
+        .services-dropdown ul li:hover .social-submenu ul{
+            display: block;
+            margin: 10px !important;
+            margin-top: 10px !important;
+            width: 250px !important;
+            background-color: white;
+            box-shadow: 5px 5px 10px  #888888;
+        
+            
+        }
+        .services-dropdown ul li:hover .social-submenu ul li {
+            padding: 10px !important;
+            line-height: 15px !important;
+            width: 250px !important;
+            text-decoration: none;
+            
+        }
+        
+        .services-dropdown ul li:hover .social-submenu ul li:hover {
+            
+            background-color: yellowgreen;
+            cursor: pointer;
+            
+        }
+        .services-dropdown ul li:hover .social-submenu ul li a:hover {
+            color: white;
+            text-decoration: none;
+            
+        }
+        
+        .disaster-submenu{
+            display: none;
+        
+        }
+        
+        .services-dropdown ul li:hover .disaster-submenu {
+            display: block;
+            position: absolute;
+            left: 170px !important;
+            top: 0px !important;
+            
+        }
+        .services-dropdown ul li:hover .disaster-submenu ul{
+            display: block;
+            margin: 10px !important;
+            margin-top: 10px !important;
+            width: 300px !important;
+            background-color: white;
+            box-shadow: 5px 5px 10px  #888888;
+        
+            
+            
+        }
+        .services-dropdown ul li:hover .disaster-submenu ul li {
+            padding: 10px !important;
+            line-height: 15px !important;
+            width: 300px !important;
+            text-decoration: none;
+            
+        }
+        
+        .services-dropdown ul li:hover .disaster-submenu ul li:hover {
+            
+            background-color: yellowgreen;
+            cursor: pointer;
+            
+        }
+        .services-dropdown ul li:hover .disaster-submenu ul li a:hover {
+            color: white;
+            text-decoration: none;
+            
+        }
+        
+        
+        .ehsaas-submenu{
+            display: none;
+        
+        }
+        
+        .services-dropdown ul li:hover .ehsaas-submenu {
+            display: block;
+            position: absolute;
+            left: 170px !important;
+            top: 0px !important;
+            
+        }
+        .services-dropdown ul li:hover .ehsaas-submenu ul{
+            display: block;
+            margin: 10px !important;
+            margin-top: 10px !important;
+            width: 250px !important;
+            background-color: white;
+            box-shadow: 5px 5px 10px  #888888;
+            
+            
+        }
+        .services-dropdown ul li:hover .ehsaas-submenu ul li {
+            padding: 10px !important;
+            line-height: 15px !important;
+            width: 250px !important;
+            text-decoration: none;
+            
+        }
+        
+        
+        .services-dropdown ul li:hover .ehsaas-submenu ul li:hover {
+            
+            background-color: yellowgreen;
+            cursor: pointer;
+            
+        }
+        .services-dropdown ul li:hover .ehsaas-submenu ul li a:hover {
+            color: white;
+            text-decoration: none;
+            
+        }
+        
+        button{
+            padding: 12px !important;
+            font-size: 15px !important;
+            margin-top: 0px !important;
+            background-color: rgb(0, 0, 255);
+            border-radius: 5px !important;
+            border: none;
+            color: white;
+            cursor: pointer;
+        }
+
+
+
+          }
+
+          @media  screen and (max-width: 600px){
+          .carousel-inner img{
+            width: 100% !important;
+            height: 300px !important;
+            margin-top: 10px !important;
+            margin-bottom: 10px !important;
+            overflow: hidden !important;
+        }
+    }
+
+    @media  screen and (min-width: 600px){
+        .carousel-inner img{
+          width: 100% !important;
+          height: 300px !important;
+          margin-top: 10px !important;
+          margin-bottom: 10px !important;
+          overflow: hidden !important;
+      }
+  }
+  @media  screen and (min-width: 768px){
+    .carousel-inner img{
+      width: 100% !important;
+      height: 400px !important;
+      margin-top: 10px !important;
+      margin-bottom: 10px !important;
+      overflow: hidden !important;
+  }
+}
+@media  screen and (min-width: 922px){
+    .carousel-inner img{
+      width: 100% !important;
+      height: 500px !important;
+      margin-top: 10px !important;
+      margin-bottom: 10px !important;
+      overflow: hidden !important;
+  }
+}
+@media  screen and (min-width: 1200px){
+    .carousel-inner img{
+      width: 100% !important;
+      height: 550px !important;
+      margin-top: 10px !important;
+      margin-bottom: 10px !important;
+      overflow: hidden !important;
+  }
+}
+
+
+          @media  screen and (max-width: 600px) {
+            .par{
+                color: black;
+                width: 500px !important;
+                text-align: justify;
+                margin-bottom: 10px !important;
+                font-size: 12px !important;
+                margin-top: 30px !important;
+                margin:  30px auto !important;
+                
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                
+            }
+            .para{
+                color: #4b4444f5;
+                line-height: 1.2em;
+            
+            }
+            
+          }
+
+          @media  screen and (min-width: 600px) {
+
+            .par{
+                color: black;
+                width: 500px !important;
+                text-align: justify;
+                margin-bottom: 10px !important;
+                font-size: 20px !important;
+                margin-top: 30px !important;
+                margin:  30px auto !important;
+                
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                
+            }
+            .para{
+                color: #4b4444f5;
+                line-height: 1.5em;
+            
+
+            }
+            
+          }
+
+          @media  screen and (min-width: 768px) {
+
+            .par{
+                color: black;
+                width: 600px !important;
+                text-align: justify;
+                margin-bottom: 10px !important;
+                font-size: 20px !important;
+                margin-top: 30px !important;
+                margin:  30px auto !important;
+                
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                
+            }
+            .para{
+                color: #4b4444f5;
+                line-height: 1.5em;
+            
+
+            }
+          }
+
+          @media  screen and (min-width: 992px) {
+            .par{
+                color: black;
+                width: 800px !important;
+                text-align: justify;
+                margin-bottom: 10px !important;
+                font-size: medium !important;
+                margin-top: 30px !important;
+                margin:  30px auto !important;
+                
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                
+            }
+            .para{
+                color: #4b4444f5;
+                line-height: 1.5em;
+            
+
+            }
+          }
+
+          @media  screen and (min-width: 1200px) {
+            .par{
+                color: black;
+                width: 1000px !important;
+                text-align: justify;
+                margin-bottom: 30px !important;
+                font-size: 20px !important;
+                margin-top: 30px !important;
+                margin:  30px auto !important;
+                
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+                
+            }
+            
+            .para{
+                color: #4b4444f5;
+                line-height: 1.5em;
+            
+            }
+
+          }
+
+
+          @media  screen and (max-width: 600px) {
+            .counter{
+                background-color: rgba(68, 71, 248, 0.945);
+                padding: 10px !important;
+                display: grid;
+                grid-template-columns: 25% 25% 25% 25% !important;
+            
+            }
+            
+            .box1, .box2, .box3, .box4{
+                text-align: center !important;
+                padding-top: 30px !important;
+                padding-bottom: 30px !important;
+                font-size: 12px !important;
+                color: white;
+            
+            }
+            .box1 p, .box2 p, .box3 p, .box4 p{
+                padding: 6px !important;
+            }
+          }
+
+
+          @media  screen and (min-width: 600px) {
+            .counter{
+                background-color: rgba(68, 71, 248, 0.945);
+                padding: 10px !important;
+                display: grid;
+                grid-template-columns: 25% 25% 25% 25% !important;
+            
+            }
+            
+            .box1, .box2, .box3, .box4{
+                text-align: center !important;
+                padding-top: 30px !important;
+                padding-bottom: 30px !important;
+                font-size: 12px !important;
+                color: white;
+            
+            }
+            .box1 p, .box2 p, .box3 p, .box4 p{
+                padding: 6px !important;
+            }
+          }
+
+          @media  screen and (min-width: 768px) {
+            .counter{
+                background-color: rgba(68, 71, 248, 0.945);
+                padding: 10px !important;
+                display: grid;
+                grid-template-columns: 25% 25% 25% 25% !important;
+            
+            }
+            
+            .box1, .box2, .box3, .box4{
+                text-align: center !important;
+                padding-top: 40px !important;
+                padding-bottom: 40px !important;
+                font-size: 12px !important;
+                color: white;
+            
+            }
+            .box1 p, .box2 p, .box3 p, .box4 p{
+                padding: 8px !important;
+            }
+          }
+
+          @media  screen and (min-width: 922px) {
+            .counter{
+                background-color: rgba(68, 71, 248, 0.945);
+                padding: 10px !important;
+                display: grid;
+                grid-template-columns: 25% 25% 25% 25% !important;
+            
+            }
+            
+            .box1, .box2, .box3, .box4{
+                text-align: center !important;
+                padding-top: 50px !important;
+                padding-bottom: 50px !important;
+                font-size: 16px !important;
+                color: white;
+            
+            }
+            .box1 p, .box2 p, .box3 p, .box4 p{
+                padding: 10px !important;
+            }
+            
+          }
+
+          @media  screen and (min-width: 1200px) {
+            .counter{
+                background-color: rgba(68, 71, 248, 0.945);
+                padding: 10px !important;
+                display: grid;
+                grid-template-columns: 25% 25% 25% 25% !important;
+            
+            }
+            
+            .box1, .box2, .box3, .box4{
+                text-align: center !important;
+                padding-top: 50px !important;
+                padding-bottom: 50px !important;
+                font-size: 22px !important;
+                color: white;
+            
+            }
+            .box1 p, .box2 p, .box3 p, .box4 p{
+                padding: 10px !important;
+            }
+            
+          }
+
+
+
+          /* What we are doing */
+
+
+          @media  screen and (max-width: 600px){
+          .container-fluid{
+            background-color: rgba(247, 243, 243, 0.932);
+            padding-top: 70px !important;
+            padding-bottom: 60px !important;
+        }
+        .what{
+            text-align: center;
+        }
+        .what h1{
+            padding-bottom: 10px !important;
+        }
+        .what img {
+            padding-bottom: 20px !important;
+        }
+
+       
+
+        .card{
+            width: 200px !important;
+            height: 170px !important;
+            margin-left: 50px !important;
+            margin-top:  30px !important;
+            margin-bottom: 30px !important;
+            color: black;
+            background-color: rgb(248, 248, 246);
+            text-align: center;
+            text-shadow: 3px 3px 3px grey;
+            box-shadow: 7px 7px 2px hsl(0, 3%, 71%);
+        }
+        .card img{
+            padding: 20px !important;
+        }
+    }
+    @media  screen and (min-width: 600px){
+        .container-fluid{
+          background-color: rgba(247, 243, 243, 0.932);
+          padding-top: 70px !important;
+          padding-bottom: 60px !important;
+      }
+      .what{
+          text-align: center;
+      }
+      .what h1{
+          padding-bottom: 10px !important;
+      }
+      .what img {
+          padding-bottom: 20px !important;
+      }
+
+     
+
+      .card{
+          width: 250px !important;
+          height: 170px !important;
+          margin-left: 50px !important;
+          margin-top:  30px !important;
+          margin-bottom: 30px !important;
+          color: black;
+          background-color: rgb(248, 248, 246);
+          text-align: center;
+          text-shadow: 3px 3px 3px grey;
+          box-shadow: 7px 7px 2px hsl(0, 3%, 71%);
+      }
+      .card img{
+          padding: 20px !important;
+      }
+  }
+
+  @media  screen and (min-width: 768px){
+    .container-fluid{
+      background-color: rgba(247, 243, 243, 0.932);
+      padding-top: 70px !important;
+      padding-bottom: 60px !important;
+  }
+  .what{
+      text-align: center;
+  }
+  .what h1{
+      padding-bottom: 10px !important;
+  }
+  .what img {
+      padding-bottom: 20px !important;
+  }
+
+ 
+
+  .card{
+      width: 250px !important;
+      height: 170px !important;
+      margin-left: 50px !important;
+      margin-top:  30px !important;
+      margin-bottom: 30px !important;
+      color: black;
+      background-color: rgb(248, 248, 246);
+      text-align: center;
+      text-shadow: 3px 3px 3px grey;
+      box-shadow: 7px 7px 2px hsl(0, 3%, 71%);
+  }
+  .card img{
+      padding: 20px !important;
+  }
+}
+
+@media  screen and (min-width: 992px){
+    .container-fluid{
+      background-color: rgba(247, 243, 243, 0.932);
+      padding-top: 70px !important;
+      padding-bottom: 60px !important;
+  }
+  .what{
+      text-align: center;
+  }
+  .what h1{
+      padding-bottom: 10px !important;
+  }
+  .what img {
+      padding-bottom: 20px !important;
+  }
+
+ 
+
+  .card{
+      width: 270px !important;
+      height: 200px !important;
+      margin-left: 30px !important;
+      margin-top:  30px !important;
+      margin-bottom: 30px !important;
+      color: black;
+      background-color: rgb(248, 248, 246);
+      text-align: center;
+      text-shadow: 3px 3px 3px grey;
+      box-shadow: 7px 7px 2px hsl(0, 3%, 71%);
+  }
+  .card img{
+      padding: 20px !important;
+  }
+}
+@media  screen and (min-width: 1200px){
+    .container-fluid{
+      background-color: rgba(247, 243, 243, 0.932);
+      padding-top: 70px !important;
+      padding-bottom: 60px !important;
+  }
+  .what{
+      text-align: center;
+  }
+  .what h1{
+      padding-bottom: 10px !important;
+  }
+  .what img {
+      padding-bottom: 20px !important;
+  }
+
+ 
+
+  .card{
+      width: 350px !important;
+      height: 200px !important;
+      margin-left: 100px !important;
+      margin-top:  30px !important;
+      margin-bottom: 30px !important;
+      color: black;
+      background-color: rgb(248, 248, 246);
+      text-align: center;
+      text-shadow: 3px 3px 3px grey;
+      box-shadow: 7px 7px 2px hsl(0, 3%, 71%);
+  }
+  .card img{
+      padding: 20px !important;
+  }
+}
+
+@media  screen and (max-width: 600px){
+
+.mission{
+    background-color: white;
+    display: inline-flex !important;
+
+}
+
+
+
+.mission-project{
+    
+    width: 500px !important;
+    margin-left: 50px!important;
+    
+   
+}
+
+
+
+#mi{
+    color: blue;
+    font-size: 20px;
+    padding-bottom: 10px !important;
+    margin-left: 10px !important;
+    
+}
+.card-hepa{
+    width: 300px !important;
+    height: 70px !important;
+    margin-top:  10px !important;
+    margin-bottom: 10px !important;
+    color: black;
+    background-color: rgba(247, 243, 243, 0.932); 
+    
+    
+ 
+    
+}
+.hepa-img{
+    padding: 20px !important;
+}
+
+
+
+
+#eve{
+    width: 300px;
+    margin-left: 10px !important;
+    padding-left: 80px;
+    display: inline-block;
+    color: black;
+   
+    
+    }
+    #even{color: blue;
+        font-size: 20px;
+        padding-bottom: 30px !important;
+    
+    }
+    
+    #upc{
+        line-height: 1em;
+        padding-left: 5px;
+    }
+    #upperslide{
+        height: 200px;
+        line-height: 1.5em;
+    }
+}
+
+@media  screen and (min-width: 600px){
+
+    .mission{
+        background-color: white;
+        display: inline-flex !important;
+    
+    }
+    
+    
+    
+    .mission-project{
+        
+        width: 500px !important;
+        margin-left: 50px!important;
+        
+       
+    }
+    
+    
+    
+    #mi{
+        color: blue;
+        font-size: 20px;
+        padding-bottom: 10px !important;
+        margin-left: 10px !important;
+        
+    }
+    .card-hepa{
+        width: 300px !important;
+        height: 70px !important;
+        margin-top:  10px !important;
+        margin-bottom: 10px !important;
+        color: black;
+        background-color: rgba(247, 243, 243, 0.932); 
+        
+        
+     
+        
+    }
+    .hepa-img{
+        padding: 20px !important;
+    }
+    
+    
+    
+    
+    #eve{
+        width: 300px;
+        margin-left: 10px !important;
+        padding-left: 80px;
+        display: inline-block;
+        color: black;
+       
+        
+        }
+        #even{color: blue;
+            font-size: 20px;
+            padding-bottom: 30px !important;
+        
+        }
+        
+        #upc{
+            line-height: 1em;
+            padding-left: 5px;
+        }
+        #upperslide{
+            height: 200px;
+            line-height: 1.5em;
+        }
+    }
+
+    @media  screen and (min-width: 768px){
+
+        .mission{
+            background-color: white;
+            display: inline-flex !important;
+        
+        }
+        
+        
+        
+        .mission-project{
+            
+            width: 500px !important;
+            margin-left: 50px!important;
+            
+           
+        }
+        
+        
+        
+        #mi{
+            color: blue;
+            font-size: 20px;
+            padding-bottom: 10px !important;
+            margin-left: 10px !important;
+            
+        }
+        .card-hepa{
+            width: 300px !important;
+            height: 70px !important;
+            margin-top:  10px !important;
+            margin-bottom: 10px !important;
+            color: black;
+            background-color: rgba(247, 243, 243, 0.932); 
+            
+            
+         
+            
+        }
+        .hepa-img{
+            padding: 20px !important;
+        }
+        
+        
+        
+        
+        #eve{
+            width: 300px;
+            margin-left: 10px !important;
+            padding-left: 80px;
+            display: inline-block;
+            color: black;
+           
+            
+            }
+            #even{color: blue;
+                font-size: 20px;
+                padding-bottom: 30px !important;
+            
+            }
+            
+            #upc{
+                line-height: 1em;
+                padding-left: 5px;
+            }
+            #upperslide{
+                height: 200px;
+                line-height: 1.5em;
+            }
+        }
+
+        @media  screen and (min-width: 992px){
+
+            .mission{
+                background-color: white;
+                display: inline-flex !important;
+            
+            }
+            
+            
+            
+            .mission-project{
+                
+                width: 800px !important;
+                margin-left: 50px!important;
+                
+               
+            }
+            
+            
+            
+            #mi{
+                color: blue;
+                font-size: 20px;
+                padding-bottom: 10px !important;
+                margin-left: 20px !important;
+                
+            }
+            .card-hepa{
+                width: 300px !important;
+                height: 70px !important;
+                margin-top:  10px !important;
+                margin-bottom: 10px !important;
+                color: black;
+                background-color: rgba(247, 243, 243, 0.932); 
+                
+                
+             
+                
+            }
+            .hepa-img{
+                padding: 20px !important;
+            }
+            
+            
+            
+            
+            #eve{
+                width: 300px;
+                margin-left: 100px !important;
+                padding-left: 50px;
+                display: inline-block;
+                color: black;
+               
+                
+                }
+                #even{color: blue;
+                    font-size: 20px;
+                    padding-bottom: 30px !important;
+                
+                }
+                
+                #upc{
+                    line-height: 1em;
+                    padding-left: 5px;
+                }
+                #upperslide{
+                    height: 200px;
+                    line-height: 1.5em;
+                }
+            }
+            @media screen and (min-width: 1200px){
+                .mission{
+                    background-color: white;
+                    display: inline-flex !important;
+                
+                }
+
+                
+
+                .mission-project{
+                    
+                    width: 800px !important;
+                    margin-left: 150px!important;
+                    
+                   
+                }
+
+
+
+                #mi{
+                    color: blue;
+                    font-size: 30px;
+                    padding-bottom: 50px !important;
+                    margin-left: 20px !important;
+                    
+                }
+                .card-hepa{
+                    width: 300px !important;
+                    height: 70px !important;
+                    margin-top:  30px !important;
+                    margin-bottom: 30px !important;
+                    color: black;
+                    background-color: rgba(247, 243, 243, 0.932);
+                    
+                    
+                 
+                    
+                }
+                .hepa-img{
+                    padding: 20px !important;
+                }
+
+
+
+
+                #eve{
+                    width: 300px;
+                    margin-left: 20px !important;
+                    padding-left: 80px;
+                    display: inline-block;
+                    color: black;
+                   
+                    
+                    }
+                    #even{color: blue;
+                        font-size: 30px;
+                        padding-bottom: 30px !important;
+                    
+                    }
+                    
+                    #upc{
+                        line-height: 1em;
+                        padding-left: 5px;
+                    }
+                    #upperslide{
+                        height: 200px;
+                        line-height: 1.5em;
+                    }
+            }
+
+
+            @media  screen and (max-width: 600px) {
+
+                footer{
+                    background-color: rgb(28, 28, 29);
+                    color: white;
+                    display: flex;
+                    flex-direction: ;
+                    flex-wrap: nowrap !important;
+                    
+                }
+                .foot1{
+                    width: 33%;
+                    color: white;
+                    line-height: 2em !important;
+                    margin-left: 20px !important ;
+                   padding-top: 70px !important;
+                    font-size: 12px !important;
+                    
+                }
+                #earth{
+                    padding-left: 30px !important;
+                }
+
+                .foot2{width: 30%;
+                    color: white;
+                    line-height: 2em !important;
+                    margin-left: 5px !important ;
+                    padding-top:40px !important;
+                    text-decoration: underline rgb(5, 211, 5);
+                    font-size: 20px !important;
+                
+                }
+
+                .foot3{
+                    
+                        width: 30%;
+                        color: white;
+                        line-height: 2em !important;
+                        margin-left: 10px !important ;
+                        padding-top: 40px !important;
+                        font-size: 20px !important;
+                       
+                    
+                }
+                .foot3 li{
+                    list-style: none !important;
+                    display: inline-block !important;
+                    padding-left: 6px !important;
+                }
+
+            }
+
+
+            @media  screen and (min-width: 600px) {
+
+                footer{
+                    background-color: rgb(28, 28, 29);
+                    color: white;
+                    display: flex;
+                    flex-direction: ;
+                    flex-wrap: nowrap !important;
+                    
+                }
+                .foot1{
+                    width: 33%;
+                    color: white;
+                    line-height: 2em !important;
+                    margin-left: 20px !important ;
+                   padding-top: 70px !important;
+                    font-size: 16px !important;
+                    
+                }
+                #earth{
+                    padding-left: 30px !important;
+                }
+
+                .foot2{width: 30%;
+                    color: white;
+                    line-height: 2em !important;
+                    margin-left: 5px !important ;
+                    padding-top:40px !important;
+                    text-decoration: underline rgb(5, 211, 5);
+                    font-size: 20px !important;
+                
+                }
+
+                .foot3{
+                    
+                        width: 30%;
+                        color: white;
+                        line-height: 2em !important;
+                        margin-left: 10px !important ;
+                        padding-top: 40px !important;
+                        font-size: 20px !important;
+                        
+                    
+                }
+                .foot3 li{
+                    list-style: none !important;
+                    display: inline-block !important;
+                    padding-left: 6px !important;
+                }
+
+            }
+
+            @media  screen and (min-width: 768px) {
+
+                footer{
+                    background-color: rgb(28, 28, 29);
+                    color: white;
+                    display: flex;
+                    flex-direction: ;
+                    flex-wrap: nowrap !important;
+                    
+                }
+                .foot1{
+                    width: 33%;
+                    color: white;
+                    line-height: 2em !important;
+                    margin-left: 50px !important ;
+                   padding-top: 70px !important;
+                    font-size: 16px !important;
+                    
+                }
+                #earth{
+                    padding-left: 30px !important;
+                }
+
+                .foot2{width: 30%;
+                    color: white;
+                    line-height: 2em !important;
+                    margin-left: 5px !important ;
+                    padding-top:40px !important;
+                    text-decoration: underline rgb(5, 211, 5);
+                    font-size: 20px !important;
+                
+                }
+
+                .foot3{
+                    
+                        width: 30%;
+                        color: white;
+                        line-height: 2em !important;
+                        margin-left: 20px !important ;
+                        padding-top: 40px !important;
+                        font-size: 20px !important;
+                        
+                    
+                }
+                .foot3 li{
+                    list-style: none !important;
+                    display: inline-block !important;
+                    padding-left: 6px !important;
+                }
+
+            }
+
+
+
+            @media  screen and (min-width: 992px) {
+
+                footer{
+                    background-color: rgb(28, 28, 29);
+                    color: white;
+                    display: flex;
+                    flex-direction: ;
+                    flex-wrap: nowrap !important;
+                    
+                }
+                .foot1{
+                    width: 33%;
+                    color: white;
+                    line-height: 2em !important;
+                    margin-left: 70px !important ;
+                   padding-top: 70px !important;
+                    font-size: 16px !important;
+                    
+                }
+                #earth{
+                    padding-left: 30px !important;
+                }
+
+                .foot2{width: 30%;
+                    color: white;
+                    line-height: 2em !important;
+                    margin-left: 10px !important ;
+                    padding-top:40px !important;
+                    text-decoration: underline rgb(5, 211, 5);
+                    font-size: 20px !important;
+                
+                }
+
+                .foot3{
+                    
+                        width: 30%;
+                        color: white;
+                        line-height: 2em !important;
+                        margin-left: 30px !important ;
+                        padding-top: 40px !important;
+                        font-size: 20px !important;
+                        
+                    
+                }
+                .foot3 li{
+                    list-style: none !important;
+                    display: inline-block !important;
+                    padding-left: 6px !important;
+                }
+
+            }
+
+            @media screen and (min-width: 1200px) {
+
+
+            footer{
+                background-color: rgb(28, 28, 29);
+                color: white;
+                display: flex;
+                flex-direction: ;
+                flex-wrap: nowrap !important;
+                
+            }
+            .foot1{
+                width: 30%;
+                color: white;
+                line-height: 2em !important;
+                margin-left: 150px !important ;
+               padding-top: 70px !important;
+                font-size: 15px !important;
+            }
+            #earth{
+                padding-left: 20px !important;
+            }
+
+            .foot2{width: 30%;
+                color: white;
+                line-height: 2em !important;
+                margin-left: 5px !important ;
+                padding-top:40px !important;
+                text-decoration: underline rgb(5, 211, 5);
+                font-size: 20px !important;
+            
+            }
+
+            .foot3{
+                
+                    width: 20%;
+                    color: white;
+                    line-height: 2em !important;
+                    margin-left: 30px !important ;
+                    padding-top: 40px !important;
+                    font-size: 20px !important;
+                
+            }
+            .foot3 li{
+                list-style: none !important;
+                display: inline-block !important;
+                padding-left: 10px !important;
+            }
+        }
